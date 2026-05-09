@@ -32,7 +32,7 @@ In the web disk settings, under OnlyOffice, enter the JWT_SECRET from the docker
 ```yaml
   office:
     container_name: jmalcloud_office
-    image: onlyoffice/documentserver:8.0.1
+    image: onlyoffice/documentserver:9.3
     environment:
       TZ: "Asia/Shanghai"
       JWT_SECRET: "my_secret"

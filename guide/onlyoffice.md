@@ -9,7 +9,7 @@
 services:
   office:
     container_name: jmalcloud_office
-    image: onlyoffice/documentserver:9.1
+    image: onlyoffice/documentserver:9.3
     ports:
       - 8080:80
     environment:
@@ -24,7 +24,7 @@ services:
 services:
   office:
     container_name: onlyoffice_china
-    image: moqisoft/documentserver:9.0.4-amd64
+    image: moqisoft/documentserver:9.3.10
     ports:
       - 8080:80
     environment:

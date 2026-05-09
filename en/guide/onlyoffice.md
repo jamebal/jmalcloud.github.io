@@ -6,7 +6,7 @@ Deploy OnlyOffice using Docker
 services:
   office:
     container_name: jmalcloud_office
-    image: onlyoffice/documentserver:9.1
+    image: onlyoffice/documentserver:9.3
     ports:
       - 8080:80
     environment:
